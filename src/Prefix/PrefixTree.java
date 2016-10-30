@@ -1,13 +1,18 @@
 package Prefix;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class PrefixTree<Value> {
 
-    public PrefixTree(){
+    private List<Node> tree;
 
+    public PrefixTree(){
+        tree = new ArrayList<>();
     }
 
     public boolean isEmpty(){
-        return false;
+        return tree.isEmpty();
     }
 
     public boolean containsKey(String word){
