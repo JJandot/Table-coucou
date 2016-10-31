@@ -5,13 +5,6 @@ import java.util.Map;
 
 public class PrefixTree<Value> {
 
-    /*
-
-    public PrefixTree<Value> get(Character c){
-        return null;
-    }
-    */
-
     private Node root;
 
     public PrefixTree() {
@@ -62,6 +55,7 @@ public class PrefixTree<Value> {
             }
         }
 
+        //return (Value)t;
         return t;
     }
 
