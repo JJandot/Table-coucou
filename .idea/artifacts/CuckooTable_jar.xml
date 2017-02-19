@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CuckooTable:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CuckooTable_jar</output-path>
+    <root id="archive" name="CuckooTable.jar">
+      <element id="module-output" name="CuckooTable" />
+    </root>
+  </artifact>
+</component>
